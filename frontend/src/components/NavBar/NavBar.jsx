@@ -26,8 +26,10 @@ const NavBar = () => {
       variant="dark"
       className="navBar"
     >
-      <NavbarBrand href="/">
-        <div className="brandnav">Morris Delta Realty</div>
+      <NavbarBrand>
+        <Link className="brandnav" to="/">
+          Morris Delta Realty
+        </Link>
       </NavbarBrand>
       <NavbarToggle aria-controls="responsive-navbar-nav" />
       <NavbarCollapse id="responsive-navbar-nav">
@@ -67,19 +69,23 @@ const NavBar = () => {
         </Nav>
         <ContactUsButton />
         <Nav>
-          {user ? (
-            <div>
-              <button className="navbutton" onClick={logoutUser}>
-                Logout
-              </button>
-              <button className="navbutton" onClick={() => navigate("/admin")}>
-                Admin
-              </button>
-            </div>
-          ) : null
-          // <button className="navbutton" onClick={() => navigate("/login")}>
-          //   Login
-          // </button>
+          {
+            user ? (
+              <div>
+                <button className="navbutton" onClick={logoutUser}>
+                  Logout
+                </button>
+                <button
+                  className="navbutton"
+                  onClick={() => navigate("/admin")}
+                >
+                  Admin
+                </button>
+              </div>
+            ) : null
+            // <button className="navbutton" onClick={() => navigate("/login")}>
+            //   Login
+            // </button>
           }
         </Nav>
       </NavbarCollapse>
