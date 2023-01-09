@@ -39,6 +39,14 @@ li {
   text-shadow: 2px 2px 4px black;
   font-weight: 500;
   font-size: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.brandnav:hover {
+  text-shadow: 2px 2px 4px green;
+  color: white;
 }
 
 .navbutton:hover {
