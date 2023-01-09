@@ -26,17 +26,17 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/morris-delta-realty" element={<HomePage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/realtors" element={<RealtorsPage />} />
+        <Route path="/morris-delta-realty/" element={<HomePage />} />
+        <Route path="register" element={<RegisterPage />} />
+        <Route path="login" element={<LoginPage />} />
+        <Route path="realtors" element={<RealtorsPage />} />
         <Route
           path="mapsandneighborhoods"
           element={<MapsAndNeighborsHoods />}
         />
-        <Route path="/realtors/sophiamorris" element={<SophiaMorrisPage />} />
-        <Route path="/realtors/davidvernon" element={<DavidVernonPage />} />
-        <Route path="/properties" element={<PropertiesPage />} />
+        <Route path="realtors/sophiamorris" element={<SophiaMorrisPage />} />
+        <Route path="realtors/davidvernon" element={<DavidVernonPage />} />
+        <Route path="properties" element={<PropertiesPage />} />
         <Route path="/admin" element={<AdminPage />} />
       </Routes>
 

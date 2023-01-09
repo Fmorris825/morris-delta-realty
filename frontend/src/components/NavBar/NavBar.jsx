@@ -41,28 +41,28 @@ const NavBar = () => {
             menuVariant="dark"
           >
             <NavDropdown.Item>
-              <Link className="link" to="realtors">
+              <Link className="link" to="/realtors">
                 All Realtors
               </Link>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <Link className="link" to="realtors/sophiamorris">
+              <Link className="link" to="/realtors/sophiamorris">
                 Sophia Morris
               </Link>
             </NavDropdown.Item>
             <NavDropdown.Item>
-              <Link className="link" to="realtors/davidvernon">
+              <Link className="link" to="/realtors/davidvernon">
                 David Vernon
               </Link>
             </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link>
-            <Link className="p-1 link" to="properties">
+            <Link className="p-1 link" to="/properties">
               Properties
             </Link>
           </Nav.Link>
           <Nav.Link>
-            <Link className="p-1 link" to="mapsandneighborhoods">
+            <Link className="p-1 link" to="/mapsandneighborhoods">
               Maps & Neighborhoods
             </Link>
           </Nav.Link>
