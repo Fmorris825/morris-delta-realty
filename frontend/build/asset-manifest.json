@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/morris-delta-realty/static/css/main.1a3bcc86.css",
-    "main.js": "/morris-delta-realty/static/js/main.ced344aa.js",
+    "main.js": "/morris-delta-realty/static/js/main.b1b578f7.js",
     "static/media/MalePortrait.jpg": "/morris-delta-realty/static/media/MalePortrait.b9eaf5275f642be67369.jpg",
     "static/media/Dallas.jpg": "/morris-delta-realty/static/media/Dallas.3518134ee508b4d4fa4b.jpg",
     "static/media/DDD.jpg": "/morris-delta-realty/static/media/DDD.d8db0b9e97c36ad6c8b0.jpg",
     "static/media/FemalePortrait.jpg": "/morris-delta-realty/static/media/FemalePortrait.0f41c784d1af904ce16a.jpg",
     "index.html": "/morris-delta-realty/index.html",
     "main.1a3bcc86.css.map": "/morris-delta-realty/static/css/main.1a3bcc86.css.map",
-    "main.ced344aa.js.map": "/morris-delta-realty/static/js/main.ced344aa.js.map"
+    "main.b1b578f7.js.map": "/morris-delta-realty/static/js/main.b1b578f7.js.map"
   },
   "entrypoints": [
     "static/css/main.1a3bcc86.css",
-    "static/js/main.ced344aa.js"
+    "static/js/main.b1b578f7.js"
   ]
 }
