@@ -27,7 +27,7 @@ const NavBar = () => {
       className="navBar"
     >
       <NavbarBrand>
-        <Link className="brandnav" to="morris-delta-realty">
+        <Link className="brandnav" to="/morris-delta-realty/">
           Morris Delta Realty
         </Link>
       </NavbarBrand>
